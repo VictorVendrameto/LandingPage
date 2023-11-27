@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100;
+    background-image: linear-gradient(
+    40deg,
+    hsl(261deg 97% 13%) 0%,
+    hsl(263deg 88% 17%) 11%,
+    hsl(267deg 85% 21%) 22%,
+    hsl(269deg 83% 25%) 33%,
+    hsl(272deg 83% 28%) 44%,
+    hsl(275deg 83% 32%) 56%,
+    hsl(277deg 85% 36%) 67%,
+    hsl(280deg 87% 39%) 78%,
+    hsl(283deg 92% 41%) 89%,
+    hsl(285deg 100% 43%) 100%);
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #56C8A7;
+}
+
+p {
+    line-height: 1.6;
+}
